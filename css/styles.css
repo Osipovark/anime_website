@@ -1,0 +1,83 @@
+/* Create your test CSS here */
+
+html {
+    background-color: #d8d6d4;
+    font-size: 10px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    margin: 0;
+    color: #d8d6d4;
+    font-size: 2em;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 1em;
+}
+
+article {
+    background-color: #c2b9a8;
+    border: 4px solid #6d665d;
+    padding: 0;
+}
+
+article h2 {
+    background-color: #6d665d;
+    margin: 0;
+    padding: 0.5em;
+    text-align: center;
+}
+
+article div {
+    padding: 0.5em;
+    color: #6d665d;
+    text-align: justify;
+}
+
+footer {
+    margin: 0;
+    background-color: #6d665d;
+    font-size: 0.5em;
+}
+
+footer p {
+    margin: 0;
+    padding: 2em;
+    text-align: center;
+}
+
+.header {
+    display: block;
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+    background-color: #6d665d;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+
+.navigation a {
+    width: 16.6vw;
+    text-align: center;
+    display: inline-block;
+    padding: 1em 0 1em 0;
+    text-decoration: none;
+    color: #d8d6d4;
+}
+
+.navigation a:hover {
+    margin: 0;
+    background-color: #d8d6d4;
+    color: #6d665d;
+    /*border-bottom: 2px solid ivory;*/
+}
+
+
