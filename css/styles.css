@@ -75,9 +75,19 @@ footer p {
 
 .navigation a:hover {
     margin: 0;
-    background-color: #d8d6d4;
-    color: #6d665d;
-    /*border-bottom: 2px solid ivory;*/
+    animation-duration: 0.75s;
+    animation-name: colorchange;
+}
+
+@keyframes colorchange {
+    from {
+        background-color: #6d665d;
+    }
+
+    to {
+        background-color: #d8d6d4;
+        color: #6d665d;
+    }
 }
 
 
